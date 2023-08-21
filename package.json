@@ -1,0 +1,17 @@
+{
+  "name": "inorwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+ "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "inorwa",
+  "license": "ISC",
+  "dependencies": {
+    "discord-chat-gpt": "^2.0.1",
+    "discord.js": "^14.13.0"
+  }
+}

@@ -15,8 +15,8 @@ const client = new Client({
 });
 
 const gptClient = new ChatGPT({
-  apiKey: "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",
-  orgKey: "org-EMlitDSuiEs3MmeXN43zHDtI",
+  apiKey: "CHAT-GPT-APİ-KEY-ADD",
+  orgKey: "CHAT-GPT-ORG-KEY-ADD",
 });
 
 // checking if bot online console bot is online
@@ -27,7 +27,7 @@ client.on("ready", () => {
 // now lets handle chat bot system
 client.on("messageCreate", async (message) => {
   if (!message.guild || message.author.bot) return;
-  let ChannelID = "1142630668447273121";
+  let ChannelID = "CHANNEL-ID-ADD";
   let channel = message.guild.channels.cache.get(ChannelID);
   if (!channel) return;
 
@@ -43,4 +43,4 @@ client.on("messageCreate", async (message) => {
 });
 
 // now login in bot
-client.login("MTEwMzcyNDk0MDM0OTQxOTYyMA.GpEkAm.apomG82G_bjrb8krDvEdnqsi89QY35kM14dCdM");
+client.login("DİSCORD-BOT-TOKEN-ADD");
